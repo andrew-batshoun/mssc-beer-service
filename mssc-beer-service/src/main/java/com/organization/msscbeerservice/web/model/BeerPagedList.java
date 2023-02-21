@@ -6,8 +6,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * @Project mssc-beer-service
- * @Author andrawesbatshoun on 2/21/23.
+ * Created by ab on 2/21/23.
  */
 public class BeerPagedList extends PageImpl<BeerDto> {
     public BeerPagedList(List<BeerDto> content, Pageable pageable, long total) {
